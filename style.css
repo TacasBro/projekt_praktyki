@@ -1,0 +1,205 @@
+body {
+	font: 300 18px / 1.6em Roboto, Arial, sans-serif;
+	color: #7c8ca0;
+}
+
+#main-header{
+    max-width: 1170px;
+    height: auto;    
+}
+
+/*Footer*/
+.footer{
+    display: block;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+   background-color: #023659;
+}
+
+/*Link */
+a {
+    color: #023a5c;
+    text-decoration: none;
+}
+a:hover {
+    opacity: 0.79;
+}
+
+/* IMG */
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Grid */
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* Page Header */
+.page-header {
+	padding: 0 0;
+}
+
+.page-header > .container {
+    max-width: 100%;
+    height: 50px;
+	display:flex;
+	align-items: center;
+    background: #023659;
+}
+
+.brand, .brand img {
+    margin: 15%;
+    padding-top: 60px;
+    z-index: 3;
+}
+.brand img {
+    background: white;
+}
+
+
+/* Menu */
+.menu-items {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	align-items: center;
+
+}
+
+.menu-items li {
+	margin: 0 0;
+	display: inline-block;
+}
+
+.menu-items li a {
+	padding: 16px 25px;
+	display: inline-block;
+    color: white;
+}
+
+.menu-items .active {
+	border-radius: 36px;
+	border: 1px solid #9fabba;
+}
+
+/* Menu icon */
+.menu-items .menu-icon {
+	margin: 0 8px;
+}
+
+.menu-items .menu-icon a {
+	background-repeat: no-repeat;
+    display: block;
+}
+.icon-search {
+	background-image: url('images/icon-search.png'); 
+    
+}
+
+/* Left Menu */
+#panel
+{
+	background: white;
+	padding: 10px;
+	width: 200px;
+    height: 100%;
+	position: fixed;
+	left: 0px;
+    box-shadow: 10px;
+}
+
+ul.left_menu
+{
+	list-style: none;
+}
+
+.left_menu a
+{
+	color: #7c8ca0;
+	text-decoration: none;
+}
+
+.left_menu a:hover
+{
+	text-decoration: underline;
+}
+.slide_button
+{
+	background: url(images/icon-show.png);
+    background-repeat: no-repeat;
+	display: block;
+	height: 60px;
+	text-indent: -9999px;
+	width: 20px;
+
+	position: absolute;
+	right: -20px;
+	top: 0px;
+}
+
+.zamknij
+{
+	background-position: -20px 0px;
+}
+
+a:focus {
+outline:none; //usuwanie niebieskiej obwódki w FF
+}
+
+/* Left Menu icon */
+.left_menu .menu-icon {
+	margin: 0 8px;
+}
+
+.left_menu .menu-icon a {
+	background-repeat: no-repeat;
+	height: 46px;
+	width: 46px;
+	padding: 0;
+}
+
+.icon-fb {
+	background-image: url('images/icon-fb.png');
+}
+
+.icon-in {
+	background-image: url('images/icon-in.png');
+}
+
+.line{
+    border-bottom-style: dotted;
+    color: black;
+}
+
+/* TEKST */
+.main-section {
+    margin: 10%;
+    max-width: 70%;
+    align-content: center;
+}
+.section-header {   
+}
+
+.header-text {
+  text-align: center;
+}
+
+.left-text {
+width: 50%;
+height: 1000px;
+margin: 10px;
+float: left
+}
+
+.right.text {
+width: 50%;
+height: auto;
+margin: 10px;
+}
